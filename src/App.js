@@ -9,7 +9,7 @@ import { Home } from "./Pages/MainPage";
 import { CoursSchedule } from "./Pages/MainPage";
 import { Info } from "./Pages/MainPage";
 import { SupportTeam } from "./Pages/MainPage";
-import { Registration } from "./Pages/MainPage";
+import  {Registration}  from "./Pages/MainPage";
 
 
 

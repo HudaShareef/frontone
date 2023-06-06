@@ -1,5 +1,6 @@
 import React from "react";
 import './SupportTeam.css'
+import '../MainPage.css'
 
 
 

@@ -24,18 +24,19 @@ body {
 }
 
 .TopBar{
-  height: 65px;
+  height: 84px;
   width: 100%;
   position: fixed;
   border-bottom: 2px solid rgb(158, 224, 156);
 
 }
 .ProfileDiv{
-  /* margin-right: 760px; */
+  padding-right: 20px;
   padding-top: 10px;
   color:#007500;
   display: flex;
     justify-content: flex-end;
+ 
 }
 
 
@@ -63,13 +64,13 @@ height: 50px;
   height: auto;
   padding: 0;
   width: 100%;
-  padding-top: 130%;
-
-  place-items: bottom;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0; 
 }
 
 
-.SidebarList .row {
+.SidebarList .field .a{
   width: 100%;
   height: 50px;
   color: white;
@@ -79,12 +80,13 @@ height: 50px;
   flex-direction: row;
   justify-content: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+  text-decoration: none;
+    
 }
 
 
 
-.SidebarList .row:hover {
+.SidebarList .field .a:hover {
   cursor: pointer;
   background-color: rgb(93, 158, 87);
 
@@ -98,7 +100,7 @@ height: 50px;
 
 
 
-.BottomList .row {
+.BottomList .field .a {
   width: 100%;
   height: 50px;
   color: white;
@@ -108,28 +110,29 @@ height: 50px;
   flex-direction: row;
   justify-content: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
 
 }
 
 
 
-.BottomList .row:hover {
+.BottomList .field .a:hover {
   cursor: pointer;
   background-color: rgb(93, 158, 87);
 
 }
 
 
-
-
-
-.row #icon {
-  flex: 40%;
+.field .a #icon {
+  flex: 30%;
   display: grid;
-  place-items: center;
+  place-items: left;
+  padding-left: 20px;
+  padding-top: 15px;
 }
 
-.row #title {
+.field .a #title {
   flex: 80%;
   padding-top: 7%;
+  padding-right: 60px;
 }

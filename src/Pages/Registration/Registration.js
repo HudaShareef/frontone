@@ -1,7 +1,5 @@
-import React from "react";
 import './Registration.css'
-
-
+import '../MainPage.css'
 
 const Registration = () => {
 
@@ -11,3 +9,7 @@ const Registration = () => {
 }
 
 export default Registration
+
+
+
+

@@ -1,6 +1,7 @@
 import React from "react";
 import './CoursSchedule.css'
 
+import '../MainPage.css'
 
 
 const CoursSchedule = () => {
